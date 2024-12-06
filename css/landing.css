@@ -60,7 +60,11 @@ h3 {
 }
 
 .subheadline {
-    font-size: 16px;
+    font-size: 1.4rem;
+}
+
+.subheadline-bold{
+    font-size: 1.2rem;
 }
 
 .header-image {
@@ -212,6 +216,57 @@ li.star::before {
     font-size: 0.9rem;
 }
 
+.faq-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.accordion {
+    border-top: 1px solid #ccc;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-header {
+    background: #f7f7f7;
+    border: none;
+    outline: none;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.accordion-header:hover {
+    background: #e7e7e7;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0 15px;
+    background: #f9f9f9;
+}
+
+.accordion-content p {
+    margin: 15px 0;
+}
+
 
 @media (min-width: 768px){
     .proof {
@@ -220,15 +275,10 @@ li.star::before {
         margin: 0 auto;
     }
     .proof .container {
-        width: 60%;
+        width: 80%;
     }
 
-    .proof .container:last-child{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 40%;
-    }
+   
     .header {
         text-align: left;
         padding: 5% 0;
