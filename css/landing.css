@@ -40,7 +40,7 @@ h3 {
 }
 
 .header {
-    background: #d5e6ff;
+    background: #003366;
     text-align: center;
     
 }
@@ -82,6 +82,10 @@ h3 {
     
 }
 
+.highligted {
+    background-color: #F0C05A;
+}
+
 .cta-button {
     display: inline-block;
     padding: 15px 30px;
@@ -95,9 +99,10 @@ h3 {
 }
 
 .button-link {
-    background-color: #e94b1d; /* Mismo color de fondo del botón */
-    color: #fff; /* Color de texto */
-    padding: 20px 35px; /* Ajusta el espacio dentro del enlace */
+    background-color: #fff; /* Mismo color de fondo del botón */
+    color: #003366; /* Color de texto */
+    border: #003366 solid 2px;
+    padding: 11px 19px;; /* Ajusta el espacio dentro del enlace */
     text-decoration: none; /* Quita el subrayado del enlace */
     font-family: Arial, sans-serif; /* Mismo tipo de fuente */
     font-weight: bold; /* Fuente en negrita */
@@ -106,24 +111,25 @@ h3 {
   }
 
 .button-link:hover {
-    background-color: #d9421b; /* Color de fondo para el hover */
+    background-color: #F0C05A; /* Color de fondo para el hover */
+    border: #F0C05A solid 2px;
   }
 
 .cta-button:hover {
-    background-color: #1e3a63;
+    font-size: 1.1rem;
 }
 
 .btn-mss {
-    font-size: 12px;
-    color: rgb(89, 95, 117);
+    font-size: 13px;
+    color: rgb(38, 41, 49);
 }
 
 .benefits {
     padding: 40px 20px;
-    background: #fff;
+    background: #f5f5f3;
 }
 
-.benefits h2, .book h2 {
+.benefits h2, .book h2, .faq-section h2 {
     text-align: center;
     margin-bottom: 20px;
     font-family: "DM Serif Text", serif;
@@ -240,7 +246,8 @@ li.star::before {
 }
 
 .accordion-header {
-    background: #f7f7f7;
+    background: #fff;
+    font-family: 'DM Sans';  
     border: none;
     outline: none;
     width: 100%;
@@ -252,7 +259,7 @@ li.star::before {
 }
 
 .accordion-header:hover {
-    background: #e7e7e7;
+    background: #F0C05A;
 }
 
 .accordion-content {

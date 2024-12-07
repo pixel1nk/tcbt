@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Expand or collapse content
             if (header.classList.contains("active")) {
-                content.style.maxHeight = content.scrollHeight + "px";
+                content.style.maxHeight = content.scrollHeight + 25 + "px";
                 content.style.padding = "15px";
             } else {
                 content.style.maxHeight = null;
