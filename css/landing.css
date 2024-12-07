@@ -40,9 +40,13 @@ h3 {
 }
 
 .header {
-    background: #003366;
+    background: #9AFF9A;
     text-align: center;
     
+}
+
+.main-logo {
+    width: 200px;
 }
 
 .header h1 {
@@ -77,8 +81,7 @@ h3 {
 }
 
 .proof {
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: transparent;
     
 }
 
@@ -211,15 +214,15 @@ li.star::before {
 
 
 .footer {
-    background: #110440;
+    background: #1e201e;
     color: #fff;
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 .footer p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .faq-section {
@@ -259,7 +262,7 @@ li.star::before {
 }
 
 .accordion-header:hover {
-    background: #F0C05A;
+    background: #9AFF9A;
 }
 
 .accordion-content {
@@ -278,15 +281,15 @@ li.star::before {
 @media (min-width: 768px){
 
     .header h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .subheadline {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     
     .subheadline-bold{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .benefits h2, .book h2, .faq-section h2 {
@@ -294,7 +297,7 @@ li.star::before {
     }
 
     .benefits ul li {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     
     .proof {
@@ -312,6 +315,6 @@ li.star::before {
         padding: 5% 0;
     }
     .container {
-        padding: 40px;
+        padding: 20px;
     }
 }
