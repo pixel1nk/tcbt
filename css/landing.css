@@ -131,7 +131,11 @@ h3 {
 
 .benefits2 {
     padding: 40px 20px;
-    background: #a8b6f5;
+    background: #c2c5d5;
+}
+
+.benefits2 ul li.star::before, .benefits2 ul li.star::after {
+    background: #fff;
 }
 
 .benefits h2, .book h2, .faq-section h2 {
