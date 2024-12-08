@@ -167,6 +167,18 @@ h3 {
     padding: 0 0 0 30px;
 }
 
+.benefits ul li a{
+    text-decoration: none;
+    color: #003366;
+    font-size: 1.2rem;
+}
+
+.benefits ul li a:hover{
+    text-decoration: underline;
+    color: #003366;
+    font-size: 1.2rem;
+}
+
 li.star::before {
     content: ""; 
     position: absolute; 
