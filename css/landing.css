@@ -129,6 +129,11 @@ h3 {
     background: #f5f5f3;
 }
 
+.benefits2 {
+    padding: 40px 20px;
+    background: #a8b6f5;
+}
+
 .benefits h2, .book h2, .faq-section h2 {
     text-align: center;
     margin-bottom: 20px;
