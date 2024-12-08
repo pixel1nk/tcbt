@@ -2,7 +2,7 @@
 const faqContent = document.getElementById('faq-content');
 
 // Define el HTML que deseas insertar
-const htmlContent = `
+const faqhtmlContent = `
 <section class="faq-section">
         <h2>Frequently Asked Questions</h2>
         <div class="accordion">
@@ -52,4 +52,4 @@ const htmlContent = `
 `;
 
 // Inserta el contenido dentro del elemento
-faqContent.innerHTML = htmlContent;
+faqContent.innerHTML = faqhtmlContent;

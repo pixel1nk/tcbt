@@ -2,7 +2,7 @@
 const benefitsContent = document.getElementById('benefits-content');
 
 // Define el HTML que deseas insertar
-const htmlContent = `
+const benefitshtmlContent = `
 <section class="benefits">
         <div class="container">
             <h2>For each question you get</h2>
@@ -16,4 +16,4 @@ const htmlContent = `
 `;
 
 // Inserta el contenido dentro del elemento
-benefitsContent.innerHTML = htmlContent;
+benefitsContent.innerHTML = benefitshtmlContent;
