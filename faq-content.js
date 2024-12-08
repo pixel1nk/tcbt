@@ -1,5 +1,5 @@
 // Selecciona el elemento donde deseas insertar el contenido
-const mainContent = document.getElementById('main-content');
+const mainContent = document.getElementById('faq-content');
 
 // Define el HTML que deseas insertar
 const htmlContent = `
