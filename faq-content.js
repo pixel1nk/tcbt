@@ -13,6 +13,14 @@ const faqhtmlContent = `
                 </div>
             </div>
             <div class="accordion-item">
+                <button class="accordion-header">Why don't do it by myself?</button>
+                <div class="accordion-content">
+                    <p>You absolutely could! You’re the expert, and with a few tools, you could generate content ideas. However, this approach would likely require 10x more time and money on average. For example, a single tool could cost at least five times our fee. Additionally, you’d need to invest significant time analyzing and researching. The sheer volume of data can be overwhelming, and you’d need to filter through it, decide what’s useful, and structure it into actionable content.
+                    <br>
+                    Our service takes this hard work off your plate. We have the tools, the data analysis expertise, and the experience to deliver near-finished content. All you’d need to do is add your unique voice and expertise to make it relevant and one-of-a-kind.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
                 <button class="accordion-header">How do you find and select the questions?</button>
                 <div class="accordion-content">
                     <p>We leverage advanced analytics, social research tools, and our professional content creation expertise to filter data and identify the most relevant topics and questions. </p>
@@ -24,6 +32,7 @@ const faqhtmlContent = `
                     <p>No, we are not subject matter experts, but we don't need to be. Our role is to provide foundational content for your expertise. We base our research on trusted and reputable sources, such as government websites, academic publications, specialized media, industry professionals, and credible organizations.</p>
                 </div>
             </div>
+            
             <div class="accordion-item">
                 <button class="accordion-header">Do you use AI?</button>
                 <div class="accordion-content">
