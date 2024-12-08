@@ -13,7 +13,7 @@ const benefitshtmlContent = `
         </div>
     </section>
 
-    <section class="benefits2">
+    <section class="benefits benefits2">
         <div class="container">
             <h2>Once a month you get</h2>
             <ul>
