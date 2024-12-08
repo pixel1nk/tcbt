@@ -1,5 +1,5 @@
 // Selecciona el elemento donde deseas insertar el contenido
-const mainContent = document.getElementById('footer-content');
+const footerContent = document.getElementById('footer-content');
 
 // Define el HTML que deseas insertar
 const htmlContent = `
@@ -12,4 +12,4 @@ const htmlContent = `
 `;
 
 // Inserta el contenido dentro del elemento
-mainContent.innerHTML = htmlContent;
+footerContent.innerHTML = htmlContent;

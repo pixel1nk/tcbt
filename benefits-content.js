@@ -1,5 +1,5 @@
 // Selecciona el elemento donde deseas insertar el contenido
-const mainContent = document.getElementById('benefits-content');
+const benefitsContent = document.getElementById('benefits-content');
 
 // Define el HTML que deseas insertar
 const htmlContent = `
@@ -16,4 +16,4 @@ const htmlContent = `
 `;
 
 // Inserta el contenido dentro del elemento
-mainContent.innerHTML = htmlContent;
+benefitsContent.innerHTML = htmlContent;
