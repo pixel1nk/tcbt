@@ -84,6 +84,12 @@ h3 {
     background: transparent;
     
 }
+.social{
+    text-align: center;
+}
+.social img {
+    width: 25px;
+}
 
 .highligted {
     background-color: #F0C05A;
