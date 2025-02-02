@@ -32,10 +32,20 @@ body {
     font-size: var(--m);
 }
 
+mark {
+    background-color: var(--green);
+    color: var(--dark-blue);
+  }
+
 div.inner {
     max-width: 960px;
     margin: 0 auto;
     display: flex;
+}
+
+.border-bottom {
+    border-bottom: 1px dashed var(--dark-blue);
+    padding-bottom: 20px;
 }
 
 nav {
@@ -75,6 +85,10 @@ nav ul li:hover {
 
 .in-padding{
     padding: 0 var(--main-padding);
+}
+
+.in-padding-full{
+    padding: var(--main-padding);
 }
 
 img {
@@ -273,6 +287,8 @@ img {
     color: var(--dark-blue);
 }
 
+
+
 .plan-name{
     display: flex;
     justify-content: left;
@@ -289,9 +305,13 @@ img {
 }
 
 .plan-price {
-    color: var(--blue);
+    color: var(--dark-blue);
     text-align: left;
     border-bottom: 1px solid var(--dark-blue);
+}
+
+.plan-price .plan-benefit {
+    font-size: var(--m);
 }
 
 .plan-price p {
@@ -330,7 +350,7 @@ img {
 .plan-card .plan-description {
     text-align: left;
     margin: 10px 0;
-    color: var(--dark-blue);
+    color: var(--blue);
 }
 
 .plan-card .plan-description ul {
@@ -340,25 +360,31 @@ img {
 }
 
 .plan-card .plan-description ul li {
-    list-style: none;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: var(--s);
 }
 
 .plan-card .plan-description p {
     margin: 0;
+    font-size: var(--s);
 }
 
 .plan-card .plan-description p.parrafo {
     line-height: 22px;
+    font-size: var(--s);
 }
 
-.plan-card .plan-description details {
+.plan-card .plan-description details, .faq-body details {
     font-family: var(--sansserif);
-    color: var(--dark-blue);
+    font-size: var(--s);
+    color: var(--blue);
     margin: 15px 0;
 }
 
-.plan-card .plan-description details p {
+.plan-card .plan-description details p, .faq-body details p {
     background-color: azure;
+    margin-top: 5px;
 }
 
 
@@ -386,11 +412,13 @@ img {
     padding: 10px 15px;
     border: none;
     cursor: pointer;
+    font-family: var(--sanserif);
+    font-size: var(--m);
 }
 
 
 
-.ignition .btn-cta-plan, .momentum .btn-cta-plan {
+.ignition .btn-cta-plan, .momentum .btn-cta-plan, .foundation .btn-cta-plan {
     
     color: var(--dark-blue);
     border: 2px solid var(--dark-blue);
@@ -405,13 +433,13 @@ img {
     color: var(--white);
 }
 
-.foundation .btn-cta-plan {
-
-    color: var(--dark-blue);
-    border: 2px solid var(--blue);
-    background-color: var(--blue);
+.plan-card.insight .btn-cta-plan:hover {
+    background-color: var(--mblue);
     color: var(--white);
+    border-color: var(--mblue);
 }
+
+
 
 .btn-cta-plan:hover {
     background-color: var(--dark-blue);
@@ -424,7 +452,22 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 50px 20px;
+    color: var(--blue);
+
+}
+
+.how-we-do-it .inner .half-div:nth-child(2) {
+    border: 2px solid var(--dark-blue);
+}
+
+.how-we-do-it h2 {
+    font-family: var(--serif);
+    font-size: var(--txt_subtitle);
+    font-weight: 400;
+}
+
+.how-we-do-it .half-div img {
+    width: 80%;
 }
 
 .half-div {
@@ -437,7 +480,13 @@ img {
     text-align: center;
 }
 
-.img-adn img{
+.img-adn p {
+    color: var(--dark-blue);
+    font-size: var(--xl);
+    font-style: italic;
+}
+
+.how-we-do-it .half-div .img-adn img{
     height: 500px;
     width: auto;
 }
@@ -449,19 +498,48 @@ img {
     line-height: 22px;
 }
 
+.who-are-we img {
+    width: 250px;
+}
+
 .who-are-we .section-body {
     text-align: left;
+    font-size: var(--m);
+    width: 80%;
+    margin: 0 auto;
 }
 
 .who-are-we h6 {
     text-align: center;
-    font-size: var(--l);
+    font-size: var(--xl);
+    font-family: var(--serif);
+    font-weight: 600;
+    
+}
+
+.why-healthcare .fact-item {
+    font-size: var(--xl);
+}
+
+.why-healthcare .section-body{
+    color: var(--dark-blue);
+    font-size: var(--m);
+    width: 80%;
+    margin: 0 auto;
 }
 
 .faq-body {
     padding: 30px 20px;
     max-width: 800px;
     margin: auto;
+}
+
+.faq-body details {
+    font-size: var(--m);
+}
+
+.faq-body details summary {
+    font-size: var(--l);
 }
 
 footer {
