@@ -16,6 +16,7 @@ html {
     --m: 16px;
     --l: 18px;
     --xl: 20px;
+    --xxl: 24px;
     --txt-title: 42px;
     --txt_subtitle: 32px;
     --main-padding: 80px;
@@ -34,6 +35,7 @@ body {
 div.inner {
     max-width: 960px;
     margin: 0 auto;
+    display: flex;
 }
 
 nav {
@@ -233,7 +235,7 @@ img {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 40px 20px;
+    padding: 100px 20px;
 }
 
 .plan-card {
@@ -242,6 +244,33 @@ img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 250px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    min-height: 400px;
+    position: relative;
+}
+
+.card-label{
+    position: absolute;
+    top: -10px;
+    right: 40%;
+}
+
+.card-label p {
+    margin: 0;
+    font-size: var(--s);
+    background-color: var(--mblue);
+    color: var(--white);
+    padding: 2px;
+}
+
+.card-label.popular {
+    color: var(--dark-blue);
+}
+
+.card-label.value {
+    color: var(--dark-blue);
 }
 
 .plan-name{
@@ -249,38 +278,91 @@ img {
     justify-content: left;
     gap: 10px;
     margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--dark-blue);
+}
+
+.plan-name h3{
+    color: var(--dark-blue);
+    font-size: var(--txt_subtitle);
+    margin: 10px;
 }
 
 .plan-price {
     color: var(--blue);
     text-align: left;
+    border-bottom: 1px solid var(--dark-blue);
 }
 
 .plan-price p {
     margin: 5px 0;
 }
 
+.plan-price .plan-cost{
+    font-size: var(--xs);
+}
+
+
+
+.plan-price .plan-cost b {
+    font-size: var(--xxl);
+}
+
 .plan-name img {
-    width: 60px;
-    background-color: white;
+    width: auto;
+    height: 60px;    
+}
+
+.plan-card.insight .plan-price {
+    color: var(--dark-blue);
 }
 
 .plan-compare {
     text-align: left;
+    margin-top: 10px;
 }
 
 .plan-compare img {
-    width: 30px;
+    height: 30px;
+    width: auto;
 }
 
-.btn-cta-plan {
-    background-color: #2980b9;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.plan-card .plan-description {
+    text-align: left;
+    margin: 10px 0;
+    color: var(--dark-blue);
 }
+
+.plan-card .plan-description ul {
+    text-align: left;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.plan-card .plan-description ul li {
+    list-style: none;
+}
+
+.plan-card .plan-description p {
+    margin: 0;
+}
+
+.plan-card .plan-description p.parrafo {
+    line-height: 22px;
+}
+
+.plan-card .plan-description details {
+    font-family: var(--sansserif);
+    color: var(--dark-blue);
+    margin: 15px 0;
+}
+
+.plan-card .plan-description details p {
+    background-color: azure;
+}
+
+
+
 
 .plan-card.insight {
     background-color: var(--yellow);
@@ -290,9 +372,53 @@ img {
     border: 2px solid var(--dark-blue);
 }
 
-.btn-cta-plan:hover {
-    background-color: #1a5276;
+.plan-cta {
+    margin-top: auto;
+    padding-top: 15px;
 }
+.plan-cta p {
+    font-size: var(--xs);
+    margin: 5px 0 0 0;
+    color: var(--blue);
+}
+
+.btn-cta-plan {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.ignition .btn-cta-plan, .momentum .btn-cta-plan {
+    
+    color: var(--dark-blue);
+    border: 2px solid var(--dark-blue);
+    background-color: var(--white);
+}
+
+.insight .btn-cta-plan {
+
+    color: var(--dark-blue);
+    border: 2px solid var(--dark-blue);
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.foundation .btn-cta-plan {
+
+    color: var(--dark-blue);
+    border: 2px solid var(--blue);
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.btn-cta-plan:hover {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    border: 2px solid var(--blue);
+}
+
 
 .how-we-do-it {
     display: flex;
@@ -307,9 +433,29 @@ img {
     min-width: 300px;
 }
 
+.img-adn {
+    text-align: center;
+}
+
+.img-adn img{
+    height: 500px;
+    width: auto;
+}
+
 .who-are-we {
     text-align: center;
     padding: 50px 20px;
+    color: var(--dark-blue);
+    line-height: 22px;
+}
+
+.who-are-we .section-body {
+    text-align: left;
+}
+
+.who-are-we h6 {
+    text-align: center;
+    font-size: var(--l);
 }
 
 .faq-body {
