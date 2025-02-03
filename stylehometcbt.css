@@ -95,6 +95,10 @@ img {
     width: 100px;
 }
 
+details summary{
+    cursor: pointer;
+}
+
 .herohome {
     background-image: url("img/hero-bg-texture-l.png");
     background-repeat: repeat;
@@ -540,6 +544,7 @@ img {
 
 .faq-body details summary {
     font-size: var(--l);
+    font-weight: 600;
 }
 
 footer {
