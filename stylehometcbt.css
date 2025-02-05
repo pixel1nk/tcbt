@@ -21,6 +21,7 @@ html {
     --txt_subtitle: 32px;
     --main-padding: 80px;
     --inner-width: 960px;
+    --max-width: 960px;
   }
 
 body {
@@ -38,7 +39,7 @@ mark {
   }
 
 div.inner {
-    max-width: 960px;
+    max-width: var(--max-width);
     margin: 0 auto;
     display: flex;
 }
@@ -109,7 +110,7 @@ details summary{
 
 .herohome div.inner {
     display: flex;    
-    padding: var(--main-padding);
+    padding: 20px;
 }
 
 .hero {
@@ -133,6 +134,9 @@ details summary{
 
 .hero-text {
     width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-text h1 {
@@ -146,17 +150,27 @@ details summary{
     line-height: 60px;
 }
 
+.hero-text p {
+    font-size: var(--xl);
+    font-family: var(--sanserif);
+    font-weight: 400;
+    margin: 0;
+    padding: 20px 0;
+    color: #fff;
+    line-height: 25px;
+}
+
 .hero-tags {
     display: flex;
     justify-content: space-between;
     width: auto;
-    justify-content: right;
+    justify-content: left;
     gap: 15px;
     margin-top: 10px;
 }
 
 .hero-tags h4 {
-    background-color: yellow;
+    background-color: var(--white);
     font-family: var(--sanserif);
     font-weight: 400;
     padding: 5px 15px;
@@ -230,6 +244,10 @@ details summary{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.fact-item img {
+    width: 100%;
+}
+
 .fact-item p {
     color: var(--blue);
 }
@@ -245,6 +263,42 @@ details summary{
     color: var(--mblue);
     float: right;
 }
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
 
 
 

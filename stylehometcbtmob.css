@@ -1,0 +1,9 @@
+@media (max-width: 1250px) {
+    div.inner {
+        flex-direction: column;
+    }
+    .half-div {
+        flex:content;
+        width: 100%;
+    }
+  }
