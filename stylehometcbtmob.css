@@ -1,9 +1,153 @@
-@media (max-width: 1250px) {
+@media (max-width: 1200px) {
     div.inner {
         flex-direction: column;
     }
     .half-div {
         flex:content;
+        width: auto;
+    }
+
+    .in-padding {
+        padding: 0 10px;
+    }
+
+    .inner-offers .tab {
+        flex-direction: column;
+      }
+
+      .hero-text {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 470px;
+      }
+
+      .hero-img {
+        width: 100%;
+      }
+
+      .hero-img img {
+        width: 80%;
+        height: auto;
+        max-width: 470px;
+      }
+
+      .how-we-do-it .half-div .img-adn img {
+        height: 250px;
+        width: auto;
+    }
+
+    nav div.inner {
+        padding: 0 20px;
+        flex-direction: row;
+    }
+
+    .facts-list.in-padding {
+        padding: 10px;
+    }
+
+    .fact-item{
+        margin: 0 auto;
+    }
+
+    .white-bg {
+        padding: 20px 0;
+    }
+
+    .in-padding-full {
+        padding: 10px;
+    }
+
+    .who-are-we .section-body {
         width: 100%;
     }
+
+    .who-are-we .half-div {
+        padding: 20px 0;
+    }
+
+    .tabcontent .tab-in-title{
+        width: 100%;
+      }
+    
+      .tabcontent .tab-in-body{
+        width: 100%;
+      }
+  }
+
+@media (max-width: 600px) {
+    div.inner {
+        flex-direction: column;
+    }
+    .half-div {
+        flex:content;
+        width: auto;
+    }
+
+    .in-padding {
+        padding: 0 10px;
+    }
+
+    .inner-offers .tab {
+        flex-direction: column;
+      }
+
+      .hero-text {
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .hero-img {
+        width: 100%;
+      }
+
+      .hero-img img {
+        width: 100%;
+        height: auto;
+      }
+
+      .how-we-do-it .half-div .img-adn img {
+        height: 250px;
+        width: auto;
+    }
+
+    nav div.inner {
+        padding: 0 20px;
+        flex-direction: row;
+    }
+
+    .facts-list.in-padding {
+        padding: 10px;
+    }
+
+    .fact-item{
+        margin: 0 auto;
+    }
+
+    .white-bg {
+        padding: 20px 0;
+    }
+
+    .in-padding-full {
+        padding: 10px;
+    }
+
+    .who-are-we .section-body {
+        width: 100%;
+    }
+
+    .who-are-we .half-div {
+        padding: 20px 0;
+    }
+
+    .fact-item img {
+        width: 100%;
+    }
+
+    .tabcontent .tab-in-title{
+        width: 100%;
+      }
+    
+      .tabcontent .tab-in-body{
+        width: 100%;
+      }
   }
