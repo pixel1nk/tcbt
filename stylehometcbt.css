@@ -164,11 +164,7 @@ details summary{
     margin: 0;
 }
 
-.cta-kit {
-    display: flex;
-    justify-content: center;
-    background-color: var(--green);
-}
+
 
 .section-head-blue {
     text-align: center;
