@@ -88,6 +88,19 @@
     .cta-kit .cta-button p {
         top: 60px;
     }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+        line-height: 44px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav div.inner {
+        justify-content: center;
+    }
 }
 
 /* TIMER STYLES */
