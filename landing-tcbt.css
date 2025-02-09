@@ -1,0 +1,162 @@
+
+@import "variables.css";
+
+.only-mob {
+    display: none;
+}
+
+.hero-text p.landing {
+    text-align: center;
+}
+
+.hero-img.landing {
+    flex-direction: column;
+}
+
+.cta-kit {
+    padding: 30px 0;
+    gap: 50px;
+}
+
+.cta-kit .cta-button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--cta);
+    padding: 1rem;
+    position: relative;
+
+}
+
+.cta-kit .cta-button a {
+    color: var(--white);
+    font-size: var(--xl);
+    font-weight: 600;
+}
+
+.cta-kit .cta-button p {
+    text-align: center;
+    margin: 0;
+    color: #2F9EA1;
+    font-size: var(--xs);
+    position: absolute;
+    top: 73px;
+    right: 35px;
+}
+
+
+.cta-kit .timer-cta p{
+    text-align: center;
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    .only-mob {
+        display: inherit;
+    }
+
+    .only-desk {
+        display: none;
+    }
+
+    .cta-kit {
+        background-color: var(--white);
+    }
+
+    .cta-kit .cta-button {
+        
+        background-color: var(--green);
+    
+    }
+    
+    .cta-kit .cta-button a {
+        color: var(--dark-blue);
+    }
+}
+
+@media (max-width: 600px) {
+    .cta-kit {
+        flex-direction: column-reverse;
+        gap: 27px;
+    }
+
+    .cta-kit .cta-button {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .cta-kit .cta-button p {
+        top: 60px;
+    }
+}
+
+/* TIMER STYLES */
+.timeContainer {
+    z-index: 1;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .timeContainer .wrapper {
+    width: 215px;
+    padding: 9px;
+    max-height: 80px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .timeContainer .wrapper div {
+    color: #ccc;
+    text-align: center;
+    width: 24%;
+    height: auto;
+    border-radius: 12px;
+    font-size: var(--xs);
+  }
+  
+  .timeContainer .wrapper div:first-child{
+    
+    color: var(--dark-blue);
+  }
+  
+  .timeContainer .wrapper div:nth-child(2){
+    color: var(--dark-blue);
+  }
+  
+  .timeContainer .wrapper div:nth-child(3){
+    color: var(--dark-blue);
+  }
+  
+  .timeContainer .wrapper div:last-child{
+    color: var(--dark-blue);
+  }
+  
+  .timeContainer .wrapper div h2 {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .circleDiv {
+    position: fixed;
+    z-index: -1;
+    top: calc(50% - 237px);
+    left: calc(-50% + 474px);
+    width: 474px;
+    height: 474px;
+    border-radius: 100%;
+    border: 6px dashed #00A3D0;
+    animation: rotatingCircle infinite linear 60s;
+  }
+  
+  @keyframes rotatingCircle {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

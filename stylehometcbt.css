@@ -1,28 +1,10 @@
+@import "variables.css";
+
 html {
     background-color: var(--white);
 }
 
-:root {
-    --blue: #4949e9;
-    --mblue: #0071bc;
-    --dark-blue: #2e3192;
-    --white: #ffffff;
-    --green: #9aff9a;
-    --yellow: #f1ff3f;
-    --sanserif: "myriad-variable", sans-serif;
-    --serif: "Source Serif 4", serif;
-    --xs: 12px;
-    --s: 14px;
-    --m: 16px;
-    --l: 18px;
-    --xl: 20px;
-    --xxl: 24px;
-    --txt-title: 42px;
-    --txt_subtitle: 32px;
-    --main-padding: 80px;
-    --inner-width: 960px;
-    --max-width: 960px;
-  }
+
 
 body {
     font-family: var(--sanserif);
@@ -127,9 +109,7 @@ details summary{
     width: 50%;
 }
 
-.hero-img.landing {
-    flex-direction: column;
-}
+
 
 .hero-img img {
     width: 410px;
@@ -164,9 +144,7 @@ details summary{
     line-height: 25px;
 }
 
-.hero-text p.landing {
-    text-align: center;
-}
+
 
 .hero-tags {
     display: flex;
@@ -663,74 +641,3 @@ footer {
 .social-media-links img {
     width: 30px;
 }
-
-/* TIMER STYLES */
-.timeContainer {
-    z-index: 2;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .timeContainer .wrapper {
-    width: 215px;
-    padding: 9px;
-    max-height: 80px;
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-  }
-  
-  .timeContainer .wrapper div {
-    color: #ccc;
-    text-align: center;
-    width: 24%;
-    height: auto;
-    border-radius: 12px;
-    font-size: var(--xs);
-  }
-  
-  .timeContainer .wrapper div:first-child{
-    
-    color: var(--dark-blue);
-  }
-  
-  .timeContainer .wrapper div:nth-child(2){
-    color: var(--dark-blue);
-  }
-  
-  .timeContainer .wrapper div:nth-child(3){
-    color: var(--dark-blue);
-  }
-  
-  .timeContainer .wrapper div:last-child{
-    color: var(--dark-blue);
-  }
-  
-  .timeContainer .wrapper div h2 {
-    font-size: 1rem;
-    margin: 0;
-  }
-  
-  .circleDiv {
-    position: fixed;
-    z-index: -1;
-    top: calc(50% - 237px);
-    left: calc(-50% + 474px);
-    width: 474px;
-    height: 474px;
-    border-radius: 100%;
-    border: 6px dashed #00A3D0;
-    animation: rotatingCircle infinite linear 60s;
-  }
-  
-  @keyframes rotatingCircle {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  

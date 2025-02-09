@@ -1,0 +1,23 @@
+:root {
+    --blue: #4949e9;
+    --mblue: #0071bc;
+    --dark-blue: #2e3192;
+    --white: #ffffff;
+    --green: #9aff9a;
+    --yellow: #f1ff3f;
+    --orange: #F38B2C;
+    --cta: #890B4E;
+    --sanserif: "myriad-variable", sans-serif;
+    --serif: "Source Serif 4", serif;
+    --xs: 12px;
+    --s: 14px;
+    --m: 16px;
+    --l: 18px;
+    --xl: 20px;
+    --xxl: 24px;
+    --txt-title: 42px;
+    --txt_subtitle: 32px;
+    --main-padding: 80px;
+    --inner-width: 960px;
+    --max-width: 960px;
+  }
