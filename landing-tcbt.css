@@ -210,6 +210,10 @@ opacity: calc(0.7);
       font-size: var(--m);
     }
 
+    .hero-text img {
+      margin: 10px 0;
+    }
+
     nav ul {
         display: none;
     }
