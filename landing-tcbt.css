@@ -41,7 +41,10 @@ nav div.inner {
 
 .hero-text img {
   margin: 10px 0;
+  width: 80px;
 }
+
+
 
 .plan-card.insight .plan-cost b:nth-child(1) {
 text-decoration: line-through;
@@ -223,9 +226,7 @@ opacity: calc(0.7);
         display: none;
     }
 
-    .hero-text img {
-      width: 80px;
-    }
+    
 
     .herohome.in-padding {
       padding-bottom: 0px;
