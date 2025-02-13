@@ -13,6 +13,23 @@
     flex-direction: column;
 }
 
+.hero-text p b {
+  color: var(--yellow);
+}
+
+.plan-card.insight .plan-cost b:nth-child(1) {
+text-decoration: line-through;
+opacity: calc(0.7);
+}
+
+.section-card-offers {
+  display: flex
+;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 50px 0 100px;
+}
 
 .cta-kit {
     display: flex;
@@ -86,9 +103,15 @@
 }
 
 
-.cta-kit .timer-cta p{
+.timer-cta p{
     text-align: center;
     margin: 0;
+    font-size: var(--xs);
+    color: var(--mblue);
+}
+
+.plan-description details summary {
+  color: var(--dark-blue);
 }
 
 @media (max-width: 1200px) {
