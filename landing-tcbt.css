@@ -31,6 +31,10 @@ nav div.inner {
     flex-direction: column;
 }
 
+.hero-text h1 {
+  width: fit-content;
+}
+
 .hero-text p b {
   color: var(--yellow);
 }
