@@ -44,20 +44,21 @@ opacity: calc(0.7);
   width: 90%;
   max-width: 400px;  
   overflow: hidden;
-  margin: 0 auto;
-  padding: 50px 0;
-  border: 0px solid var(--mblue);
+  padding: 20px;
+  margin: 50px auto;
+  border: 2px solid var(--mblue);
   background-color: transparent;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  -webkit-box-shadow: 7px 9px 1px -2px rgba(0,0,0,0.31);
+  -moz-box-shadow: 7px 9px 1px -2px rgba(0,0,0,0.31);
+  box-shadow: 7px 9px 1px -2px var(--dark-blue);
   
 }
 
 .form-kit iframe {
-  -webkit-box-shadow: 0px -4px 24px -11px rgba(0,0,0,0.31);
-  -moz-box-shadow: 0px -4px 24px -11px rgba(0,0,0,0.31);
-  box-shadow: 0px -4px 24px -11px rgba(0,0,0,0.31);
+  
 }
 
 .form-kit p {
@@ -179,9 +180,7 @@ opacity: calc(0.7);
         color: var(--dark-blue);
     }
 
-    .form-kit {
-      margin: 0 auto;
-    }
+    
 
     .herohome.in-padding {
       padding-bottom: 20px;
@@ -217,6 +216,14 @@ opacity: calc(0.7);
 
     .herohome.in-padding {
       padding-bottom: 0px;
+    }
+
+    .form-kit {
+      
+      padding: 50 0px;
+      margin: 20px auto;
+      border: 1px solid var(--mblue);
+      
     }
 
     
