@@ -35,6 +35,10 @@ nav div.inner {
   color: var(--yellow);
 }
 
+.hero-text img {
+  margin: 10px 0;
+}
+
 .plan-card.insight .plan-cost b:nth-child(1) {
 text-decoration: line-through;
 opacity: calc(0.7);
@@ -57,9 +61,7 @@ opacity: calc(0.7);
   
 }
 
-.form-kit iframe {
-  
-}
+
 
 .form-kit p {
   color: var(--blue);
@@ -211,9 +213,7 @@ opacity: calc(0.7);
       font-size: var(--m);
     }
 
-    .hero-text img {
-      margin: 10px 0;
-    }
+   
 
     nav ul {
         display: none;
