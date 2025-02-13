@@ -1,8 +1,22 @@
 
 @import "variables.css";
 
+.offer-body {
+  position: relative;
+}
 .only-mob {
     display: none;
+}
+
+.herohome.in-padding {
+  padding-bottom: 100px;
+}
+
+nav{
+  background-color: transparent;
+}
+nav div.inner {
+  justify-content: center;
 }
 
 .hero-text p.landing {
@@ -22,6 +36,23 @@ text-decoration: line-through;
 opacity: calc(0.7);
 }
 
+.form-kit {
+  width: 80%;
+  max-width: 400px;
+  height: 281px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 15px;
+  border: 0px solid var(--mblue);
+  background-color: var(--white);
+}
+
+.form-kit p {
+  color: var(--blue);
+  text-align: center;
+  font-size: var(--xs);
+}
+
 .section-card-offers {
   display: flex
 ;
@@ -34,9 +65,11 @@ opacity: calc(0.7);
 .cta-kit {
     display: flex;
     justify-content: center;
-    background-color: var(--white);
-    padding: 30px 0;
-    gap: 50px;
+    background-color: var(--white);    
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    bottom: 0;
 }
 
 .cta-kit .cta-button {
@@ -51,7 +84,7 @@ opacity: calc(0.7);
 
 .cta-kit .cta-button a {
     color: var(--dark-blue);
-    font-size: var(--xl);
+    font-size: var(--m);
     font-weight: 600;
 }
 #triangle-down {
@@ -136,6 +169,10 @@ opacity: calc(0.7);
     .cta-kit .cta-button a {
         color: var(--dark-blue);
     }
+
+    .form-kit {
+      margin: 50px 0 50px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -162,9 +199,7 @@ opacity: calc(0.7);
         display: none;
     }
 
-    nav div.inner {
-        justify-content: center;
-    }
+    
 }
 
 /* TIMER STYLES */
