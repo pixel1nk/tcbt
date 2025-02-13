@@ -38,13 +38,15 @@ opacity: calc(0.7);
 
 .form-kit {
   width: 80%;
-  max-width: 400px;
-  
+  max-width: 400px;  
   overflow: hidden;
   margin: 0 auto;
   padding: 15px;
   border: 0px solid var(--mblue);
   background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .form-kit p {
@@ -170,7 +172,7 @@ opacity: calc(0.7);
     }
 
     .form-kit {
-      margin: 50px 0 50px;
+      margin: 0 auto;
     }
 
     .herohome.in-padding {
