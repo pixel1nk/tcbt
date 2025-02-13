@@ -223,6 +223,9 @@ opacity: calc(0.7);
       padding: 50 0px;
       margin: 20px auto;
       border: 1px solid var(--mblue);
+      width: 80%;
+      max-width: 400px;
+      padding: 10px;
       
     }
 
