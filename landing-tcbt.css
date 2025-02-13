@@ -229,6 +229,10 @@ opacity: calc(0.7);
       
     }
 
+    .section-head-blue h2 {
+      font-size: var(--xl);
+    }
+
     
 }
 
