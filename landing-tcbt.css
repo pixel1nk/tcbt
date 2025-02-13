@@ -1,6 +1,10 @@
 
 @import "variables.css";
 
+.cta-form-bg {
+  background-color: var(--white);
+}
+
 .offer-body {
   position: relative;
 }
@@ -43,10 +47,17 @@ opacity: calc(0.7);
   margin: 0 auto;
   padding: 50px 0;
   border: 0px solid var(--mblue);
-  background-color: var(--white);
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
+}
+
+.form-kit iframe {
+  -webkit-box-shadow: 0px -4px 24px -11px rgba(0,0,0,0.31);
+  -moz-box-shadow: 0px -4px 24px -11px rgba(0,0,0,0.31);
+  box-shadow: 0px -4px 24px -11px rgba(0,0,0,0.31);
 }
 
 .form-kit p {
@@ -74,12 +85,14 @@ opacity: calc(0.7);
 }
 
 .cta-kit .cta-button {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: var(--green);
-    padding: 1rem;
-    position: relative;
+  display: flex  ;
+      justify-content: center;
+      flex-direction: column;
+      background-color: var(--white);
+      padding: 1rem;
+      position: relative;
+      width: 100%;
+      max-width: 400px;
 
 }
 
@@ -161,11 +174,6 @@ opacity: calc(0.7);
         background-color: var(--white);
     }
 
-    .cta-kit .cta-button {
-        
-        background-color: var(--green);
-    
-    }
     
     .cta-kit .cta-button a {
         color: var(--dark-blue);
@@ -186,8 +194,7 @@ opacity: calc(0.7);
         gap: 27px;
     }
 
-    .cta-kit .cta-button {
-        width: auto;
+    .cta-kit .cta-button {        
         margin: 0 auto;
     }
 
