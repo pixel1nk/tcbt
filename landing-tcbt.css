@@ -199,6 +199,10 @@ opacity: calc(0.7);
         display: none;
     }
 
+    .hero-text img {
+      width: 50px;
+    }
+
     
 }
 
