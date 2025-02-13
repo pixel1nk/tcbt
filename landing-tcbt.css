@@ -206,6 +206,10 @@ opacity: calc(0.7);
         line-height: 44px;
     }
 
+    .hero-text p {
+      font-size: var(--m);
+    }
+
     nav ul {
         display: none;
     }
