@@ -470,6 +470,7 @@ details summary{
 .plan-card .plan-description details p, .faq-body details p {
     background-color: azure;
     margin-top: 5px;
+    line-height: 24px;
 }
 
 
