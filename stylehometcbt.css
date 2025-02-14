@@ -2,6 +2,7 @@
 
 html {
     background-color: var(--white);
+    scroll-behavior: smooth;
 }
 
 
@@ -164,6 +165,24 @@ details summary{
     margin: 0;
 }
 
+a.cta-home { 
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: var(--yellow);
+    font-family: var(--sanserif);
+    font-weight: 600;
+    font-size: var(--l);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.cta-home:hover {
+    background-color: var(--mblue);
+    color: var(--white);
+}
 
 
 .section-head-blue {
@@ -485,8 +504,9 @@ details summary{
 }
 
 .plan-cta {
-    margin-top: auto;
-    padding-top: 15px;
+    margin-top: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 .plan-cta p {
     font-size: var(--xs);
