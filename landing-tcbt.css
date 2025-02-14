@@ -97,7 +97,7 @@ opacity: calc(0.7);
 }
 
 .cta-kit .cta-button {
-  display: flex  ;
+      display: flex  ;
       justify-content: center;
       flex-direction: column;
       background-color: var(--white);
@@ -106,6 +106,15 @@ opacity: calc(0.7);
       width: 90%;
       max-width: 400px;
 
+}
+
+.cta-kit.offer {
+  background-color: var(--dark-blue);
+}
+
+.cta-kit.offer .cta-button {
+  max-width: 251px;
+  background-color: transparent;
 }
 
 .cta-kit .cta-button a {

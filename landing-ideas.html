@@ -33,24 +33,13 @@
     <!-- End Meta Pixel Code -->
 </head>
 <body>
-<nav>
-    <div class="inner">
-    <img src="img/tcbt-logo-w.png" alt="logo the content bang theory">
-   <!--  <ul>
-        <li>What</li>
-        <li>How</li>
-        <li>Who</li>
-        <li>Why</li>
-        <li>Questions</li>
-    </ul> -->
-</div>
-</nav>
+
 <header>
 <div class="herohome in-padding">
     <div class="inner">
     <div class="hero-text">
         
-        
+        <img src="img/tcbt-logo-w.png" alt="logo the content bang theory">
         <h1>We are happy you liked it!</h1>
         <div class="hero-tags">
             <!-- <h4> You’re going to love our sample content—it’s just a glimpse of how much time you can save with our resources when creating content.</h4> -->
@@ -96,16 +85,25 @@ popup1
 </div> -->
 
 </header>
+<div class="offer-body">
+    <div class="cta-kit offer"> 
+
+    
+        <div class="cta-button">
+            <div id="triangle-downo"></div>
+            <script src="https://the-content-bang-theory.kit.com/commerce.js" async defer></script>
+            <a class="convertkit-button" href="https://the-content-bang-theory.kit.com/products/tcbt-launch" data-commerce>Unlock Your Exclusive Offer</a>
+        </div>
+       
+        
+    </div>
 <section class="section-card-offers">
 
     <div class="plan-card insight">
         <div class="card-label popular">
             <p> -75% Lifetime </p>
         </div>
-       <!--  <div class="plan-name">
-            <img src="img/insights.png" alt="icon insights plan" class="plan-img">
-            <h3 class="plan-title">Insight</h3>
-        </div> -->
+      
 
         <div class="plan-price">
             <p class="plan-cost"> <b>$39</b> <b><mark>$9.75</mark></b> per month</p>
@@ -411,7 +409,7 @@ popup1
 </div>
 </section>
 
-
+</div>
 
 <footer>
     
@@ -477,7 +475,16 @@ function formatTime(time){
 
 setInterval(countdown,1000);
     </script>
-
+<script>
+    window.addEventListener("scroll", function () {
+      var cta = document.querySelector(".cta-kit");
+      if (window.scrollY >= 800) {
+        cta.style.display = "flex";
+      } else {
+        cta.style.display = "none";
+      }
+    });
+  </script>
 
 </body>
 </html>
