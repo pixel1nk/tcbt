@@ -137,11 +137,18 @@
     .facts h2 {
         
         font-size: var(--txt_subtitle);
-        
+        line-height: 32px;
+        margin: 0 0 20px 0;
     }
 
     .section-head-blue h2 {
         font-size: var(--txt_subtitle);
+        line-height: 34px;
+        margin-bottom: 10px;
+    }
+
+    .inner-offers.tabscont {
+        margin: 10px auto 10px;
     }
 
     .white-bg {
