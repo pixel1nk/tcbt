@@ -1,5 +1,9 @@
 @import "variables.css";
 
+.topnav {
+    display: none;
+}
+
 @media (max-width: 1200px) {
     div.inner {
         flex-direction: column;
@@ -156,4 +160,58 @@
       .popup-content {
         width: 90%;
     }
+
+    nav {
+        display: none;
+    }
+
+    /* Menu Mobile */
+
+    .mobile-container {
+        max-width: 600px;
+        margin: auto;
+        background-color: var(--dark-blue);
+        height: auto;
+        color: white;
+      }
+      
+      .topnav {
+        display: block;
+        overflow: hidden;
+        background-color: var(--dark-blue);
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        background: var(--blue);
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 14px;
+      }      
+      
+      .topnav a.active {
+        padding: 0;
+      }
+
+      .topnav img{
+        width: 70px;
+      }
+      
+      .active {
+        background-color: var(--blue);
+        color: white;
+      }
   }

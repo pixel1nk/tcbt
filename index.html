@@ -11,6 +11,7 @@
     <link href="stylehometcbt.css" rel="stylesheet">
     <link href="stylehometcbtmob.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/yse6csc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="97332810-7713-4958-ae85-12c535c26dd4"  type="text/javascript"></script>
 <!-- Meta Pixel Code -->
 <script>
@@ -56,14 +57,36 @@
     <div class="inner">
     <img src="img/tcbt-logo-w.png" alt="logo the content bang theory">
     <ul>
-        <li>What</li>
-        <li>How</li>
-        <li>Who</li>
-        <li>Why</li>
-        <li>Questions</li>
+        <li><a href="#what">What</a></li>
+        <li><a href="#how">How</a></li>
+        <li><a href="#who">Who</a></li>
+        <li><a href="#why">Why</a></li>
+        <li><a href="#faq">Questions</a></li>
     </ul>
+
+    
+    </div>
 </div>
 </nav>
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+        <div class="topnav">
+        <a href="#home" class="active"><img src="img/tcbt-logo-w.png" alt="logo the content bang theory"></a>
+        <div id="myLinks">
+            <a href="#what">What</a>
+            <a href="#how">How</a>
+            <a href="#who">Who</a>
+            <a href="#why">Why</a>
+            <a href="#faq">Questions?</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div> 
+    <!-- End smartphone / tablet look -->
+    </div>
 <header>
     
 <div class="herohome in-padding">
@@ -123,7 +146,7 @@
 </section>
     </section>
 
-<section class="section-head-blue">
+<section class="section-head-blue" id="what">
     <h2>... we can help you reach them ...</h2>
     <h3>We have developed especial catalysts to elevate your content marketing</h3>
 </section>
@@ -392,7 +415,7 @@
 </section>
 
 
-<section class="section-head-blue">
+<section class="section-head-blue" id="how">
     <h2>... using our special blend.</h2>
     <h3>We use data to pinpoint audience needs and craft relevant content that gets results.</h3>
 </section>
@@ -423,7 +446,7 @@
 
 </section>
 
-<section class="section-head-blue">
+<section class="section-head-blue" id="who">
     <h2>Introducing the Experts</h2>
     <h3>Know the people behind the analysis</h3>
 </section>
@@ -469,7 +492,7 @@
 
 </section>
 
-<section class="section-head-blue">
+<section class="section-head-blue" id="why">
     <h2>Why healthcare content?</h2>    
     <h3>It all starts with our Live Principles...</h3>
 </section>
@@ -505,7 +528,7 @@
 </div>
 </section>
 
-<section class="section-head-blue">
+<section class="section-head-blue" id="faq">
     <h2>Questions?</h2>
 </section>
 
@@ -566,5 +589,15 @@
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
     </script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
 </body>
 </html>
