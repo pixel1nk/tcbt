@@ -502,9 +502,6 @@ a.cta-home:hover {
     line-height: 24px;
 }
 
-
-
-
 .plan-card.insight {
     background-color: var(--yellow);
 }
@@ -522,6 +519,46 @@ a.cta-home:hover {
     font-size: var(--xs);
     margin: 5px 0 0 0;
     color: var(--blue);
+}
+
+.plan-cta a.cta-blue { 
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    color: var(--white);
+    border: 2px solid var(--dark-blue);
+    background-color: var(--dark-blue);
+    font-weight: 400;
+    font-size: var(--m);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.plan-cta a.cta-blue:hover {
+    background-color: var(--white);
+    color: var(--dark-blue);
+    border: 2px solid var(--white);
+}
+
+.plan-cta a.cta-line { 
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    color: var(--dark-blue);
+    border: 2px solid var(--dark-blue);
+    background-color: var(--white);
+    font-weight: 400;
+    font-size: var(--m);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.plan-cta a.cta-line:hover {
+    background-color: var(--mblue);
+    color: var(--white);
+    border: 2px solid var(--mblue);
 }
 
 .btn-cta-plan {
