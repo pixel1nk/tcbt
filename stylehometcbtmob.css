@@ -102,6 +102,11 @@
         margin: 0 auto;
       }
 
+      .hero-text h1 {
+        font-size: 2rem;
+        line-height: 33px;
+    }
+
       .hero-img {
         width: 100%;
       }
@@ -127,6 +132,16 @@
 
     .fact-item{
         margin: 0 auto;
+    }
+
+    .facts h2 {
+        
+        font-size: var(--txt_subtitle);
+        
+    }
+
+    .section-head-blue h2 {
+        font-size: var(--txt_subtitle);
     }
 
     .white-bg {
