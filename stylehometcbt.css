@@ -375,8 +375,9 @@ a.cta-home:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;    
-    min-height: 400px;
+    min-height: 450px;
     position: relative;
+    height: fit-content;
 }
 
 .card-label{
