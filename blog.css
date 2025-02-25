@@ -1,0 +1,96 @@
+@import "variables.css";
+
+body.blog h2{
+    color: var(--white);
+    font-weight: 200;
+    background-color: var(--dark-blue);
+}
+
+body.blog h3{
+    color: var(--dark-blue);
+    font-size: 30px;
+}
+
+body.blog .fact-item img {
+    width: 100%;
+}
+
+body.blog .fact-item {
+    min-width: 30%;
+    max-width: 439px;
+    margin: 0 auto;
+}
+
+body.blog .facts-list div.inner {
+    flex-wrap: wrap;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+.search-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.category-buttons {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.category-buttons button {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+.category-buttons button:hover {
+    background: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+.hero-text {
+    width: 100%;
+}
+
+.hero-text img {
+    width: 100%;
+}
+
+a.cta-home {
+    width: auto;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: var(--yellow);
+    font-family: var(--sanserif);
+    color: var(--dark-blue);
+    font-weight: 400;
+    font-size: var(--l);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.who-are-we .section-body {
+    
+    font-size: var(--l);
+    line-height: 30px;
+    width: 100%;
+    max-width: 600px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(24, 2, 121, 0), rgba(24, 2, 121, 0.75), rgba(24, 2, 121, 0));
+}
+
