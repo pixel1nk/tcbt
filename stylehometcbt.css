@@ -245,12 +245,32 @@ a.cta-home:hover {
     font-weight: 500;
     font-size: var(--txt-title);
     margin: 0 0 50px 0;
+    width: 100%;
+}
+
+.facts h4{
+    font-family: var(--serif);
+    color: var(--dark-blue);
+    font-weight: 600;
+    font-size: var(--txt_subtitle);
+    margin: 0 0 50px 0;
+    width: 100%;
 }
 
 .facts-list div.inner{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+}
+
+.facts p {
+    color: var(--dark-blue);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.facts p.list-nolist {
+    line-height: 35px;
 }
 
 .fact-item {
