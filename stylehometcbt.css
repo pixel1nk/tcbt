@@ -249,11 +249,18 @@ a.cta-home:hover {
 }
 
 .facts h4{
-    font-family: var(--serif);
-    color: var(--dark-blue);
+    
     font-weight: 600;
     font-size: var(--txt_subtitle);
-    margin: 0 0 50px 0;
+   
+}
+
+.facts h5{
+    font-family: var(--serif);
+    font-weight: 800;
+    font-size: var(--l);
+    color: var(--dark-blue);
+    argin: 0 0 50px 0;
     width: 100%;
 }
 
